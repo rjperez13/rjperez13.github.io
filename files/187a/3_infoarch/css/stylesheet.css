@@ -1,0 +1,155 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: black;
+	background: #EEE;
+}
+
+*
+{
+	text-align:left;
+}
+
+#wrapper
+{
+	display: block; 
+	height:auto;
+	position: relative; 
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
+
+a:link, a:visited
+{
+	text-decoration: none;
+	color: #44B6B6;
+}
+
+a:hover, a:active
+{
+	color: #208989;
+}
+
+#main
+{
+	width: 880px;
+	height: auto;
+	background-color: #DDD;
+	padding: 10px;
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-size: 14px;
+	border: 1px solid gray;
+	margin: 0px auto 0px auto;
+	margin-top: 20px;
+}
+
+#gallery
+{
+	text-align: center;
+}
+
+#main .thumb
+{
+	width: 280px;
+	border: 1px solid gray;
+	margin: 4px;
+}
+
+#main .img
+{
+	width: 880px;
+}
+
+#main .imgleft
+{
+	width: 500px;
+	float: left;
+	margin: 10px 20px 15px 10px;
+}
+
+#main .imgright
+{
+	width: 500px;
+	float: right;
+	margin: 10px 20px 15px 10px;
+}
+
+
+.pleft
+{
+	clear: left;
+	padding: 10px 0px 0px 0px;
+	overflow: hidden;
+}
+
+.pright
+{
+	clear: right;
+	padding: 10px 0px 0px 0px;
+	overflow: hidden;
+}
+
+.left
+{
+	width: 260px;
+	background-color: #DDD;
+	float: left;
+	margin: 20px auto 5px auto;
+	padding: 10px 10px 25px 10px;
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-size: 14px;
+	border: 1px solid gray;
+}
+
+.right
+{
+	width: 580px;
+	background-color: #DDD;
+	float: right;
+	margin: 20px auto 5px auto;
+	padding: 10px 10px 25px 10px;
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-size: 14px;
+	border: 1px solid gray;
+	
+}
+
+.left img, .right img
+{
+	width: 400px;
+	border: 1px solid gray;
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+h1
+{
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-size: 18px;
+	font-decoration: bold;
+}
+
+h2
+{
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-size: 15px;
+	font-decoration: bold;
+	display: block;
+	padding-left: 25px;
+	
+}
+
+
+#footer
+{
+	width: 900px;
+	height:120px;
+	float: left;
+	margin: 10px auto 10px auto;
+	padding: 10px 15px 10px 20px;
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-size: 12px;
+}

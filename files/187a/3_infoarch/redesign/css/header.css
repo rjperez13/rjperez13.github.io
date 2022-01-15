@@ -1,0 +1,160 @@
+#header
+{
+	width: 900px;
+	height: 200px;
+	margin: 10px auto 0px auto;
+	border: 2px solid gray;
+	background-color: #FFF;
+}
+
+
+#banner
+{
+	width:500px;
+	height:150px;
+	float: left;
+}
+
+#gateways
+{
+	float: left;
+	width: 150px;
+	height: 90px;
+	margin-top: 30px;
+	border-left: 1px dashed #193662;
+	border-right: 1px dashed #193662;
+
+}
+
+#gateways ul
+{
+	list-style-image: url('../img/bullet_arrow_blue.png');
+	padding: 0;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin: 0;
+}
+
+#gateways li
+{
+	float: left;
+	width: 140px;
+	padding-top: 5px;
+}
+
+#gateways a:link, a:visited
+{
+	display: block;
+	font-family: Arial, Times New Roman, Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #193662;
+	text-transform: uppercase;
+}
+
+#gateways a:hover, a:active
+{
+	color: #193662;
+}
+
+
+#searchbox
+{
+	float: right;
+	width: 240px;
+	padding-top: 20px;
+	font-family: Arial, Times New Roman, Tahoma;
+	font-size: 11px;
+}
+
+
+#globalnav
+{
+	width: 900px;
+	height: 50px;
+	margin: 0 auto 0 auto;
+	clear: both;
+}
+
+ul.cssMenu, ul.cssMenu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	height: 30px;
+	position: relative;
+	background-color: #193662;
+	text-transform: uppercase;
+	text-decoration: none;
+	z-index: 200;
+}
+
+/* Style for 1st level menu header */
+ul.cssMenu li
+{
+	position: relative;
+	float: left;
+	background-color: #193662; /* bg color of menu header (1st level) */
+	padding: 2px;
+}
+
+ul.cssMenu li:hover
+{ 
+	background-color: black; /*background color of menu header (1st level) on hover*/; 
+	text-decoration: none;
+}
+
+ul.cssMenu li a
+{
+	/*Menu link styles*/
+	display: block; 
+	padding: 3px;
+	padding-top: 5px;
+	color: #FFFFFF;
+	font-family: Arial, Times New Roman, Tahoma;
+	font-size: 12px;
+}
+
+/* Building menu items - for 2nd and more level menu items*/
+ul.cssMenu ul 						
+{ 
+	display: none; /*initially menu item is hidden*/
+	position: absolute; /*absolute positioning is important for menu to float*/
+	width: 180px; 
+	
+	/*Formating of menu items*/
+	border: 1px solid #AAAAAA;
+	padding: 1px;
+	background-color: black;
+	
+	/*optional - to change position of 2nd level menu item*/
+	top: 100%; 
+	left: 0; 
+}
+ul.cssMenu ul li
+{ 
+	background-color: #193662; 
+	float: none;
+	padding: 3px;
+}
+
+ul.cssMenu ul li a
+{ 
+	width: 100%; 
+	display: block; 
+	color: #FFFFFF;
+} 
+
+/* Menu item position for 3rd level and more */
+ul.cssMenu ul ul
+{ 
+	left: 100%; 
+	top: 0; 
+}
+
+/* Hover effect for menu*/
+ul.cssMenu li:hover > ul 			
+{ 
+	display:block;
+	text-decoration: none;
+}

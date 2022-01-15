@@ -1,0 +1,615 @@
+body
+{
+background-image: url('images/broken_noise.png');
+}
+
+#header
+{
+width: 900px; 
+height: 175px;
+margin: 2px auto 5px auto;
+}
+
+#wrapper 
+{
+width: 900px;
+height:1614px;
+margin: 5px auto;
+border-color: white;
+border-style: solid;
+border-width: 2px;
+background-image:url('images/classy_fabric.png');
+padding:1px;
+}
+
+#wrapper_index
+{
+width: 900px;
+height:1350px;
+margin: 5px auto;
+border-color: white;
+border-style: solid;
+border-width: 2px;
+background-image:url('images/classy_fabric.png');
+padding:1px;
+}
+
+#logo
+{
+width: 200px;
+height:100px;
+margin: 0px 0px 5px 0px;
+}
+
+#banner
+{
+width: 800px;
+margin: 0px auto 0px auto;
+/* background-color: #C0C0C0; */
+}
+
+#anchor
+{
+width:900px;
+height:100px;
+background-color: #b94a48;
+}
+ 
+
+ 
+.header-text-karthus {
+text-align:right;
+font-size:50px;
+margin-top:-45px;
+padding-right:100px;
+}
+
+.header-text-morde {
+text-align:right;
+font-size:50px;
+margin-top:-45px;
+padding-right:50px;
+}
+
+.header-text-yorick {
+text-align:right;
+font-size:50px;
+margin-top:-45px;
+padding-right:55px;
+}
+
+.header-text-olaf {
+text-align:right;
+font-size:50px;
+margin-top:-45px;
+padding-right:150px;
+}
+
+.header-text-sona {
+text-align:right;
+font-size:50px;
+margin-top:-45px;
+padding-right:145px;
+}
+
+.header-text-index {
+text-align:right;
+font-size:50px;
+margin-top:-45px;
+padding-right:65px;
+}
+
+h1.breadcrumb-subtext {
+position:relative;
+text-align:right;
+font-size:17px;
+bottom:8px;
+right:5px;
+font-family: 'Droid Sans', sans-serif;
+
+}
+
+h1.breadcrumb {
+position: absolute;
+text-align:left;
+font-size:16px;
+margin-left:5px;
+top:97px;
+font-family: 'Droid Sans', sans-serif;
+font-weight:bold;
+z-index:1;
+}
+
+#sampletext
+{
+text-align: right;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+/*#navigation
+{
+width:900px;
+height:50px;
+margin: 0 auto 0 auto;
+background-color: red;
+list-style-type: none;
+} */
+
+#navbandlogo
+{
+position:absolute;
+top: -100px;
+left: 228px;
+z-index:5;
+}
+
+#content
+{
+width:900px;
+padding-top:17px;
+}
+
+#posters
+{
+margin: 0px auto 0px auto;
+width:900px;
+padding-top:15px;
+padding-bottom:35px;
+}
+
+#tours
+{
+margin:0 50px;
+margin-right: auto;
+width:250px;
+height:352px;
+}
+
+#testimonials
+{
+margin:-352px;
+margin-left: auto;
+margin-right:auto;
+width:250px;
+height:352px;
+}
+
+#album
+{
+margin:0 50px;
+margin-left:auto;
+width:250px;
+height:352px;
+}
+
+#bandstats
+{
+margin: 0px auto 0px auto;
+width:800px;
+padding-top:15px;
+padding-bottom:15px;
+}
+
+#footer
+{
+width:900px;
+margin: 0px auto 0px auto;
+padding: 10px 0px 0px 0px;
+margin-bottom: -8px;
+}
+
+#footer2
+{
+width:900px;
+height:350px;
+background-image:url('images/blackorchid.png');
+color:green;
+position:absolute;
+}
+
+#footer-content1
+{
+width:180px;
+height:100px;
+display: inline-block;
+float:left;
+text-align:center;
+background:white;
+}
+
+#footer-content2
+{
+width:180px;
+height:100px;
+display: inline-block;
+margin-left:-20px;
+position:relative;
+top:-60px;
+background:blue;
+left:17px;
+}
+
+#footer-content3
+{
+width:180px;
+height:100px;
+display: inline-block;
+margin-left:-4px;
+margin-right:0px;
+text-align:center;
+background:white;
+position:relative;
+left:17px;
+}
+
+#footer-content4
+{
+width:180px;
+height:100px;
+display: inline-block;
+margin-left:12px;
+background:blue;
+position:relative;
+top:-60px;
+left:1.5px;
+}
+
+#footer-content5
+{
+width:180px;
+height:100px;
+display: inline-block;
+float:right;
+background:grey;
+}
+
+#footer-c1
+{
+width:170px;
+position:relative;
+top:6px;
+/**border-color:red;
+border-width:1px;
+border-style:solid;*//
+text-align:center;
+font-family: 'Droid Sans', sans-serif;
+}
+
+#footer-c2
+{
+width:180px;
+height:320px;
+position:relative;
+left:180px;
+top:-185px;
+border-left:.0001px solid red;
+text-align:center;
+font-family: 'Droid Sans', sans-serif;
+}
+
+#footer-c3
+{
+width:180px;
+position:relative;
+left:360px;
+top:-506px;
+text-align:center;
+font-family: 'Droid Sans', sans-serif;
+}
+
+#footer-c4
+{
+width:180px;
+position:relative;
+left:540px;
+top:-711px;
+text-align:center;
+font-family: 'Droid Sans', sans-serif;
+}
+
+#footer-c5
+{
+width:180px;
+position:relative;
+left:720px;
+top:-1247px;
+text-align:center;
+font-family: 'Droid Sans', sans-serif;
+}
+
+#border
+{
+position:absolute;
+top: 505px;
+left: 678px;
+z-index:5;
+}
+
+h1.center {
+text-align:center;
+}
+
+h1.album {
+text-align:center;
+font-size:25px;
+font-weight:bold;
+color:red;
+}
+
+img.center {
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+img.left {
+float:left;
+margin-top:0px;
+margin-left:15px;
+}
+
+img.right {
+float:right;
+margin-top:-49px;
+margin-right:15px; 
+}
+
+img.twitter-icon {
+margin:0px 60px 0px 0px;
+}
+
+p.center {
+text-align:center;
+margin: 0 atuo 0 auto;
+}
+
+img.divider {
+position:relative;
+top:-5px;
+}
+
+img.divider2 {
+position:relative;
+top:-5px;
+left:8px;
+}
+
+img.sprite_karthus {
+position:relative;
+right:50px;
+}
+
+img.sprite_morde {
+position:relative;
+bottom:79px;
+left:50px;
+}
+
+img.sprite_home {
+position:relative;
+bottom:70px;
+right:35px;
+}
+
+img.sprite_yorick{
+position:relative;
+bottom:150px;
+left:50px;
+}
+
+img.sprite_olaf{
+position:relative;
+bottom:140px;
+right:50px;
+}
+
+img.sprite_sona{
+position:relative;
+bottom:215px;
+left:50px;
+}
+
+img.sprite_left {
+position:relative;
+right:50px;
+}
+
+h1.sprite_textleft {
+position:relative;
+right:47px;
+}
+
+h1.sprite_textmorde {
+position:relative;
+left:50px;
+bottom:78px;
+}
+
+h1.sprite_texthome {
+position:relative;
+right:42px;
+bottom:70px;
+}
+
+h1.sprite_textyorick {
+position:relative;
+left:49px;
+bottom:148px;
+}
+
+h1.sprite_textolaf {
+position:relative;
+right:52px;
+bottom:140px;
+}
+
+h1.sprite_textsona {
+position:relative;
+left:50px;
+bottom:217px;
+}
+
+h1.left_text {
+text-align:left;
+}
+
+.c4 li.artist{
+position:relative;
+bottom:33px;
+text-align:left;
+padding-left:15px;
+}
+.contributors1 {
+position:relative;
+width:90px;
+height:114px;
+text-align:left;
+padding-left:5px;
+}
+
+.contributors2{
+position:relative;
+width:90px;
+height:114px;
+text-align:right;
+bottom:113px;
+left:85px;
+}
+
+.contributors3 {
+position:relative;
+width:90px;
+height:57px;
+text-align:left;
+bottom:100px;
+left:7px;
+}
+
+.contributors4 {
+position:relative;
+width:90px;
+height:57px;
+text-align:right;
+left:85px;
+bottom:158px;
+}
+
+.contributors_1 li.names_1 {
+position:relative;
+text-align:left;
+margin-left:5px;
+}
+
+.contributors_2 li.names_2 {
+position:relative;
+text-align:right;
+margin-right:7px;
+bottom:57px;
+}
+
+.contributors_3 li.names_3 {
+position:relative;
+text-align:left;
+margin-left:5px;
+bottom:57px;
+}
+
+.contributors_4 li.names_4 {
+position:relative;
+text-align:right;
+margin-right:7px;
+/**bottom:135px; */
+bottom:95px;
+}
+
+.contributors_5 li.names_5 {
+position:relative;
+text-align:left;
+margin-left:5px;
+bottom:80px;
+}
+
+.contributors_6 li.names_6 {
+position:relative;
+text-align:right;
+margin-right:7px;
+bottom:100px;
+}
+
+.c4 li.coders{
+position:relative;
+top:-243px;
+text-align:right;
+padding-right:8px;
+}
+
+img.border_c1 {
+position:absolute;
+top:45px;
+left:171px;
+}
+
+img.border_c2 {
+position:absolute;
+top:45px;
+left:356px;
+}
+
+img.border_c3 {
+position:absolute;
+top:45px;
+left:536px;
+}
+
+img.border_c4 {
+position:absolute;
+top:45px;
+left:715px;
+}
+
+img.icon_left {
+margin:0px auto 0px auto;
+}
+
+img.icon_right2 {
+float:right;
+margin-right:14px;
+margin-top:95px;
+}
+
+img.icon_right {
+margin:0px auto 0px auto;
+position:relative;
+bottom:105px;
+}
+
+h1.brush_texticon {
+position:relative;
+right:49px;
+top:-73px;
+}
+
+h1.code_texticon {
+position:relative;
+left:51px;
+top:-92px;
+}
+
+h1.coders_text {
+position:relative;
+bottom:105px;
+}
+
+img.thankyou_icon {
+position:relative;
+top:87px;
+}
+
+
+
+
+
+
+
+

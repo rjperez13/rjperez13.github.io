@@ -1,0 +1,668 @@
+body{
+font-family: 'Arimo', Times New Roman;
+font-size:14px;
+font-weight:400;
+letter-spacing:1px;
+background:white;
+color:#000;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
+border:1px solid black;
+}
+
+.table-responsive{
+border:none;
+}
+
+.text-left
+{text-align:left
+}
+
+.text-right{
+text-align:right;
+}
+
+.invis-fix{
+color:#ecf0f1;
+}
+
+a{
+color:#27ae60;
+text-decoration:none;
+}
+
+.footer-link{
+color:yellow;
+text-decoration:none;
+}
+
+a:hover, a:focus{
+color:#fff;
+}
+
+footer{
+font-size:18px;
+background-color:#34495e;
+}
+
+.bold{
+font-weight:bold;
+}
+
+.deluxe{
+background:#27ae60;
+opacity:0.8;
+}
+
+.icon-sprite{
+width:32px;
+height:32px;
+display:inline-block;
+background:url("images/sprites.png") no-repeat;
+margin-bottom:10px;
+z-index:2;
+}
+
+.icon-sprite.sprite-venue{
+background-position:-32px;
+}
+
+.icon-sprite.sprite-city{
+background-position:-64px;
+}
+
+.icon-sprite.sprite-country{
+background-position:-96px;
+}
+
+.icon-sprite-social-icons{
+width:45px;
+height:45px;
+display:inline-block;
+background:url("images/sprites_social_icons.png") no-repeat;
+}
+
+.icon-sprite-social-icons.sprite-google{
+background-position:-45px;
+}
+.icon-sprite-social-icons.sprite-twitter{
+background-position:-90px;
+}
+
+.icon-sprite-social-icons.sprite-yt{
+background-position:-135px;
+}
+
+.icon-sprite-social-icons.sprite-tumblr{
+background-position:-180px;
+}
+
+.icon-sprite-social-icons:hover{
+width:45px;
+height:45px;
+display:inline-block;
+background:url("images/sprites_social_icons_hover.png") no-repeat;
+}
+
+.icon-sprite-social-icons.sprite-google:hover{
+background-position:-45px;
+}
+
+.icon-sprite-social-icons.sprite-twitter:hover{
+background-position:-90px;
+}
+
+.icon-sprite-social-icons.sprite-yt:hover{
+background-position:-135px;
+}
+
+.icon-sprite-social-icons.sprite-tumblr:hover{
+background-position:-180px;
+}
+
+.title{
+font-family: 'Arimo', Times New Roman;
+font-size:30px;
+font-weight:700;
+color:#27ae60;
+background:url("images/title_border.png") no-repeat;
+background-position:center bottom;
+padding:0 0 15px 0;
+}
+/*
+.navbar-brand{
+width:401px;
+height:71px;
+padding:0;
+margin:0;
+text-indent:-9999px;
+background: url(images/logo.png) no-repeat;
+}*/
+
+.navbar-brand img{
+display:block;
+max-width:100%;
+height:auto;
+float:left;
+}
+
+.navbar-default{
+border:none;
+background:none;
+padding:0 0 60px 0;
+}
+
+.navbar-nav{
+padding-top:15px;
+}
+
+.navbar-default .navbar-nav > li > a{
+font-family: 'Arimo', Times New Roman;
+font-size:16px;
+letter-spacing:1px;
+color:#27ae60;
+padding:10px 0;
+text-align:center;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+color:#fff;
+border-bottom:2px solid #fff;
+padding-bottom:0px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+color:#fff;
+background:none;
+border-bottom:2px solid #fff;
+padding-bottom:0;
+outline:0;
+}
+
+.navbar-toggle{
+background:#27ae60;
+border:none;
+margin-top:0;
+margin-right:0;
+width:32px;
+height:32px;
+text-align:center;
+padding-left:5px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+background-color:#fff;
+outline:none;
+}
+
+.navbar-default .navbar-collapse{
+border:none;
+}
+
+.jumbotron{
+background:#2c3e50 url(images/lana_bg.png) no-repeat;
+background-size:cover;
+padding:60px 0;
+margin:0;
+}
+
+.review-text{
+font-family: 'Arimo', Time New Roman;
+color:#f39c12;
+line-height:30px;
+}
+
+.review-left, .review-right{
+padding:120px 0;
+}
+
+.album-release-title{
+font-family: 'Arimo', Time New Roman;
+color:#ffffff;
+font-weight:bold;
+}
+
+.album-release-text{
+font-family: 'Arimo', Time New Roman;
+font-size:14px;
+font-weight:400;
+letter-spacing:1px;
+color:#95a5a6;
+}
+
+.jumbotron p{
+line-height:30px;
+}
+
+.heading{
+background:#bdc3c7;
+padding:60px 0;
+}
+
+.about{
+background-color:#ecf0f1;
+}
+
+.about-border{
+border:10px solid black;
+}
+
+.about-padding{
+padding:60px 0;
+}
+
+.about-table-header{
+color:#2980b9;
+}
+
+.table-pad-1{
+padding-bottom:11px;
+}
+
+.table-pad-2{
+padding-bottom:9px;
+}
+.table-pad-3{
+padding-bottom:10px;
+}
+.table-pad-4{
+}
+
+.discography{
+background-color:#ecf0f1;
+}
+
+.discography-padding{
+padding:60px 0;
+}
+
+.discography-content-title{
+color:#d35400;
+}
+
+.discography-album-title{
+color:#2980b9;
+}
+
+.pictures{
+overflow:hidden;
+background:#34495e;
+}
+
+.picture-gallery-inner{
+position:relative;
+width:25%;
+float:left;
+border:1px solid #000;
+}
+
+.picture-gallery-inner img{
+margin:0;
+padding:0;
+opacity:.4;
+}
+
+.picture-gallery-inner, .caption h4{
+color:#fff;
+}
+
+.picture-1 .caption{
+opacity:0;
+display:block;
+position:absolute;
+top:0;
+width:100%;
+height:100%;
+background:url("images/lana_r1_c1_color.png") no-repeat;
+background-position:center;
+background-size:cover;
+cursor:pointer;
+}
+
+
+.picture-2 .caption{
+opacity:0;
+display:block;
+position:absolute;
+top:0;
+width:100%;
+height:100%;
+background:url("images/lana_r1_c2_color.png") no-repeat;
+background-position:center;
+background-size:cover;
+cursor:pointer;
+}
+
+.picture-3 .caption{
+opacity:0;
+display:block;
+position:absolute;
+top:0;
+width:100%;
+height:100%;
+background:url("images/lana_r1_c3_color.png") no-repeat;
+background-position:center;
+background-size:cover;
+cursor:pointer;
+}
+
+.picture-4 .caption{
+opacity:0;
+display:block;
+position:absolute;
+top:0;
+width:100%;
+height:100%;
+background:url("images/lana_r1_c4_color.png") no-repeat;
+background-position:center;
+background-size:cover;
+cursor:pointer;
+}
+
+.picture-5 .caption{
+opacity:0;
+display:block;
+position:absolute;
+top:0;
+width:100%;
+height:100%;
+background:url("images/lana_r2_c1_color.png") no-repeat;
+background-position:center;
+background-size:cover;
+cursor:pointer;
+}
+
+.picture-6 .caption{
+opacity:0;
+display:block;
+position:absolute;
+top:0;
+width:100%;
+height:100%;
+background:url("images/lana_r2_c2_color.png") no-repeat;
+background-position:center;
+background-size:cover;
+cursor:pointer;
+}
+
+.picture-7 .caption{
+opacity:0;
+display:block;
+position:absolute;
+top:0;
+width:100%;
+height:100%;
+background:url("images/lana_sexy_color.png") no-repeat;
+background-position:center;
+background-size:cover;
+cursor:pointer;
+}
+
+.picture-8 .caption{
+opacity:0;
+display:block;
+position:absolute;
+top:0;
+width:100%;
+height:100%;
+background:url("images/lana_r2_c4_color.png") no-repeat;
+background-position:center;
+background-size:cover;
+cursor:pointer;
+}
+
+.picture-gallery-inner:hover .caption {
+opacity:1;
+}
+
+.caption-heading h4{
+margin-top:0;
+margin-bottom:-4px;
+}
+
+.caption-heading
+{
+position:absolute;
+}
+
+.caption-background{
+background:rgba(41, 128, 185,.5); 
+}
+
+.no-padding{
+padding:0;
+}
+
+.picture-gallery-inner .caption .btn-trigger a{
+}
+
+/*
+.picture-gallery-inner:hover img{
+opacity:1;
+}*/
+
+.full{
+width:100%;
+}
+
+.btn-primary{
+background:#2980b9;
+border-radius:2px;
+border-color:#2980b9;
+font-size:14px;
+color:#000;
+font-weight:700;
+padding:5px 10px;
+}
+
+.btn-primary:hover{
+background:#3498db;
+border-radius:2px;
+font-size:14px;
+font-weight:700;
+padding:5px 10px;
+cursor:pointer;
+}
+
+.btn-primary:active{
+}
+
+.tours{
+background-color:#ecf0f1;
+}
+
+.tours-padding{
+padding:60px 0;
+}
+
+.footer{
+}
+
+.footer-padding{
+padding:10px 0;
+}
+
+.footer-contact{
+font-size:14px;
+color:#000;
+background:#bdc3c7;
+overflow:hidden;
+padding:10px 0;
+}
+
+.footer-icons{
+text-align:center;
+font-weight:bold;
+display:block;
+max-width:100%;
+height:auto;
+}
+
+.font-size-16{
+font-size:16px;
+font-weight:700;
+}
+
+.padding-top{
+padding-top:150px;
+}
+
+.center-image{
+margin: 0 auto;
+}
+
+.center-text{
+text-align:center;
+}
+
+.album-info{
+padding-top:30px;
+}
+
+.song-info-1{
+padding:57px 0;
+}
+
+.song-info{
+padding-bottom:30px;
+}
+
+.song-info-deluxe{
+}
+
+.deluxe-edition{
+}
+
+.no-margin-bot{
+margin-bottom:0;
+}
+
+.margin-top-10px
+{
+margin-top:10px;
+}
+
+.carousel-indicators{
+position: relative;
+width:auto;
+left:0;
+bottom:0;
+margin-left:0;
+margin-bottom:0;
+padding-top:0;
+z-index: 15;
+text-align: center;
+list-style: none;
+/*background:rgba(41, 128, 185,.8);
+border-radius:2px; */
+}
+
+.carousel-indicators li {
+display: inline-block;
+width: auto;
+height: auto;
+padding:5px 5px;
+margin:5px 5px 5px 5px;
+text-indent:0px;
+cursor: pointer;
+border: none;
+border-radius: 2px;
+color:#27ae60;
+}
+
+
+.carousel-indicators li:hover {
+width: auto;
+height: auto;
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+background-color: #fff; 
+border-bottom:3px solid #27ae60 ;
+color:#2980b9;
+} 
+
+.carousel-indicators .active {
+width: auto;
+height: auto;
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+background-color: #bdc3c7;
+font-weight:700;
+border-bottom:3px solid #2980b9;
+background:transparent;
+}
+
+.padding-top-bottom-10px{
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.notable-stats-slider{
+}
+
+.table-no-border>thead>tr>th, 
+.table-no-border>tbody>tr>th, 
+.table-no-border>tfoot>tr>th, 
+.table-no-border>thead>tr>td, 
+.table-no-border>tbody>tr>td, 
+.table-no-border>tfoot>tr>td{
+  border-top: none; 
+}
+
+.table-no>tbody>tr>td{
+border-top: none;
+padding:0;
+}
+
+
+
+.table-nope{
+width:100%;
+margin-bottom:0;
+}
+
+.table-striped-even > tbody > tr:nth-child(even) > td, .table-striped > tbody > tr:nth-child(even) > th{
+background-color:#f9f9f9;
+}
+
+.table-nono thead > tr > th, .table-nono tbody > tr > th, .table-nono tfoot > tr > th, .table-nono thead > tr > td, .table-nono tbody > tr > td, .table-nono tfoot > tr > td{
+border-top:none;
+border-bottom:none;
+}
+
+.scrollup{
+    width:70px;
+    height:70px;
+    opacity:0.9;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    display:none;
+    text-indent:-9999px;
+    background: url('images/scrollup.png') no-repeat;
+}
+/*
+@media(min-width:768px){
+.navbar-default .navbar-nav{float:right;}
+.navbar-nav li{padding:0 30px;}
+.nav .navbar-brand{background:url('images/lana_logo_v2_small.png';}
+
+}
+*/
+
+@media(min-width:768px){
+.navbar-default .navbar-nav{float:right;}
+.navbar-nav li{padding:0 0 0 40px;}
+}
+
+@media(min-width:510px) {
+.navbar-toggle{margin-top:100px;}
+}
+
+
+

@@ -1,0 +1,43 @@
+#carousel-container
+{
+	width: 860px;
+	height: 370px;
+	background-color: #FFE9E0;
+	padding: 20px;
+}
+
+#featuredlinks
+{
+	width: 890px;
+	height: auto;
+	background-color: #193662;
+	margin: 0;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+
+.buttons
+{
+	width: 280px;
+	margin: 5px;
+	border: 2px solid white;
+}
+
+#main-content
+{
+	margin: 0 auto 0 auto;
+	width: 900px;
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.mainsub
+{
+	width: 420px;
+	padding: 20px;
+	padding-right: 0;
+	float: left;
+}

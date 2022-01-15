@@ -1,0 +1,17 @@
+@import url(assets/css/bootstrap.css);
+
+body
+{
+background: #f5f5dc;
+font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 15px;
+}
+
+table { margin: auto;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+	

@@ -1,0 +1,519 @@
+.ei-slider{
+	position: relative;
+	width: 100%;
+	max-width: 1920px;
+	height: 400px;
+	margin: 0 auto;
+}
+.ei-slider-loading{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:999;
+	background: rgba(0,0,0,0.9);
+	color: #fff;
+	text-align: center;
+	line-height: 400px;
+}
+.ei-slider-large{
+	height: 100%;
+	width: 100%;
+	position:relative;
+	overflow: hidden;
+}
+.ei-slider-large li{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.ei-slider-large li img{
+	width: 100%;
+}
+.ei-title2{
+position: absolute;
+left:88%;
+top: 90%
+}
+
+.ei-title3{
+position: absolute;
+left:42%;
+top: 85%
+}
+
+.ei-subtitle3{
+position: absolute;
+left:79%;
+top:90%
+}
+
+.ei-subtitle4{
+position: absolute;
+left:84.5%;
+top:91%
+}
+
+.ei-title4{
+position: absolute;
+left:16.3%;
+top:86%
+}
+
+.ei-subtitle5{
+position: absolute;
+left:81.6%;
+top:91%
+}
+
+.ei-title5{
+position: absolute;
+left:48%;
+top:86%
+}
+
+.ei-title6{
+position: absolute;
+left:67.5%;
+top:86%
+}
+
+.ei-subtitle6{
+position: absolute;
+left:72.6%;
+top:91%;
+}
+
+.ei-title7{
+position: absolute;
+left:67.3%;
+top:86%
+}
+
+.ei-subtitle7{
+position: absolute;
+left:79%;
+top:91.3%;
+}
+
+.ei-title8{
+position: absolute;
+left:63%;
+top:85.9%
+}
+
+.ei-subtitle8{
+position: absolute;
+left:75.5%;
+top:91%;
+}
+
+.ei-title9{
+position: absolute;
+left:15.35%;
+top:87%
+}
+
+.ei-subtitle9{
+position: absolute;
+left:77.3%;
+top:91%;
+}
+
+.ei-title10{
+position: absolute;
+left:67.07%;
+top:87%
+}
+
+.ei-subtitle10{
+position: absolute;
+left:76.3%;
+top:91%;
+}
+
+.ei-title11{
+position: absolute;
+left:55.9%;
+top:87%
+}
+
+.ei-subtitle11{
+position: absolute;
+left:75%;
+top:91%;
+}
+
+.ei-title12{
+position: absolute;
+left:47.95%;
+top:87%
+}
+
+.ei-subtitle12{
+position: absolute;
+left:82%;
+top:91%;
+}
+
+.ei-title13{
+position: absolute;
+left:18.75%;
+top:87%
+}
+
+.ei-subtitle13{
+position: absolute;
+left:82.85%;
+top:91%;
+}
+
+.ei-title14{
+position: absolute;
+left:29.1%;
+top:87%
+}
+
+.ei-subtitle14{
+position: absolute;
+left:76%;
+top:91%;
+}
+
+.ei-title15{
+position: absolute;
+left:25%;
+top:91%
+}
+
+.ei-subtitle15{
+position: absolute;
+left:72.6%;
+top:91%;
+}
+
+.ei-title15 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-subtitle15 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-title14 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: black;
+font-weight:bold;
+}
+
+.ei-subtitle14 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: black;
+font-weight:bold;
+}
+
+.ei-title13 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-subtitle13 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-title12 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-subtitle12 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-title11 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: black;
+font-weight:bold;
+}
+
+.ei-subtitle11 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: black;
+font-weight:bold;
+}
+
+.ei-title10 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: black;
+font-weight:bold;
+}
+
+.ei-subtitle10 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: black;
+font-weight:bold;
+}
+
+.ei-title9 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: black;
+font-weight:bold;
+}
+
+.ei-subtitle9 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: black;
+font-weight:bold;
+}
+
+.ei-title8 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-subtitle8 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-title7 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-subtitle7 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-subtitle6 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-title6 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-subtitle5 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-title5 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-subtitle4 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-title4 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-subtitle3 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-title3 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+float:left;
+text-align: left;
+}
+
+.ei-title2 h1{
+font-size:17px;
+line-height:50px;
+font-family: 'Droid Sans', sans-serif;
+color: #d1d3d4;
+}
+
+.ei-title{
+	position: absolute;
+	right: 50%;
+	margin-right: 16%;
+	top: 30%;
+}
+.ei-title h2, .ei-title h3, .ei-title2 h1{
+	text-align: right;
+}
+
+.ei-title h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-family: 'New Rocker', cursive;
+	/*font-style: italic; not working in chrome*/
+	color: #b5b5b5;
+}
+.ei-title h3{
+	font-size: 70px;
+	line-height: 70px;
+	font-family: 'Open Sans Condensed', cursive;
+	text-transform: uppercase;
+	color: #000;
+}
+.ei-slider-thumbs{
+	height: 13px;
+	margin: 0 auto;
+	position: relative;
+}
+.ei-slider-thumbs li{
+	position: relative;
+	float: left;
+	height: 100%;
+}
+.ei-slider-thumbs li.ei-slider-element{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 100%;
+	z-index: 10;
+	text-indent: -9000px;
+	background: #000;
+	background: rgba(0,0,0,0.9);
+}
+.ei-slider-thumbs li a{
+	display: block;
+	text-indent: -9000px;
+	background: #666 ;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	-webkit-box-shadow: 
+        0px 1px 1px 0px rgba(0,0,0,0.3), 
+        0px 1px 0px 1px rgba(255,255,255,0.5);
+	-moz-box-shadow: 
+        0px 1px 1px 0px rgba(0,0,0,0.3), 
+        0px 1px 0px 1px rgba(255,255,255,0.5);
+	box-shadow: 
+        0px 1px 1px 0px rgba(0,0,0,0.3), 
+        0px 1px 0px 1px rgba(255,255,255,0.5);
+	-webkit-transition: background 0.2s ease;
+    -moz-transition: background 0.2s ease;
+    -o-transition: background 0.2s ease;
+    -ms-transition: background 0.2s ease;
+    transition: background 0.2s ease;
+}
+.ei-slider-thumbs li a:hover{
+	background-color: #f0f0f0;
+}
+.ei-slider-thumbs li img{
+	position: absolute;
+	bottom: 50px;
+	opacity: 0;
+	z-index: 999;
+	max-width: 100%;
+	-webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+	-webkit-box-reflect: 
+        below 0px -webkit-gradient(
+            linear, 
+            left top, 
+            left bottom, 
+            from(transparent), 
+            color-stop(50%, transparent), 
+            to(rgba(255,255,255,0.3))
+            );
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.ei-slider-thumbs li:hover img{
+	opacity: 1;
+	bottom: 13px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+@media screen and (max-width: 830px) {
+	.ei-title{
+		position: absolute;
+		right: 0px;
+		margin-right: 0px;
+		width: 100%;
+		text-align: center;
+		top: auto;
+		bottom: 10px;
+		background: #fff;
+		background: rgba(255,255,255,0.9);
+		padding: 5px 0;
+	}
+	.ei-title h2, .ei-title h3{
+		text-align: center;
+	}
+	.ei-title h2{
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.ei-title h3{
+		font-size: 30px;
+		line-height: 40px;
+	}
+}
+
